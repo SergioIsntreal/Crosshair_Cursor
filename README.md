@@ -3,7 +3,7 @@
 ### In this tutorial, we will be assigning a crosshair to the cursor
 
 > [!IMPORTANT]
-> In this tutorial, you will need any version of Unity and VisualStudio released within the last 5 years
+> You will need any version of Unity and VisualStudio released within the last 5 years
 > 
 > This tutorial is made for a 3D Project
 > 
@@ -26,7 +26,7 @@
 
 4. Right click `Canvas` -> `UI` -> `Raw Image`. This will display a white box in the middle of the canvas. Hit F2 to rename it to 'Crosshair'
 
-5. Drag and drop your image into the `Texture` tab and click the button below that says `Set Native Size`. You can scale the image above using `Rect Transform`, but ensure the link icon next to `Scale` is enabled.
+5. Drag and drop your image into the `Texture` tab and click the button below that says `Set Native Size`. You can scale the image above using `Rect Transform`, but ensure the link icon next to `Scale` is enabled to maintain its resolution.
 
 <img width="961" alt="image" src="https://github.com/user-attachments/assets/32a99383-fad0-4aec-ace3-027b6aff61d5" />
 
@@ -52,6 +52,8 @@
 
    `transform.position = Camera.main.ScreenToWorldPoint(pos);`
    > Also lacking knowledge on why this works
+
+![image](https://github.com/user-attachments/assets/4d4e20c8-d12a-41ea-9461-e3d9a3585872)
 
 Save your script and return to Unity.
 
